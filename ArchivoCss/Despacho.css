@@ -98,3 +98,14 @@ div article h1{
     font-size: 130%;
     
 }
+
+a:link{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 100%;
+}
+/* pseudo-clases*/
+a:hover{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 100%;}
