@@ -3,6 +3,7 @@
  <head>
     <meta charset="UTF-8">
     <title> Contacto</title>
+    <link rel="stylesheet" href="ArchivoCss/Contacto.css">
  </head>
  <body>
      <header>
@@ -10,7 +11,7 @@
      </header>
     <header>
      <nav>
-            <ul>
+            <ul id="menuPrincipal">
                     <li><a href="index.html"><strong> Principal</strong></a></li>
                     <li><a href="Contactos.html"><strong> Contactos</strong></a></li>
                     <li><a href="Despacho.html"><strong> Despacho</strong></a></li>
@@ -19,32 +20,63 @@
                     
                 </ul>
     </nav>
+<div id="contenido">
+    <h1>Contacto</h1>
+    <form action="#">
+        
+        <input id="contenido" class="formulario" type="text" placeholder="Nombre">
+        <br>
+        <input id="contenido" class="formulario" placeholder="Apellido">
+        <br>
+        <input id="contenido" class="formulario" type="text" placeholder="Correo">
+        <br>
+        <textarea id="contenido" class="formulario"  name="mensaje" placeholder="Mensaje"></textarea>
+        <br>
+       
+        <button >Enviar</button>
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
      
          <article>
-             <h1>Contactos</h1>
-             <a><img src="Imagenes/Contactos.png" alt="Contactos"/></a>
+             
+            
               <section>
                      
                       <dl id="Contactos">
-                          
-                            <dt>TELEFONOS:</dt>
-                            <dd>289-89-45</dd>
-                            <dd>41-32-350</dd>
-                            
+                          <br>
+                            <dt id="texto">TELEFONOS:</dt>
+                            <dd id="texto3"> 289-89-45</dd>
+                            <dd id="texto3">41-32-350</dd>
+                            <br>
+                           
                        
-                            <dt>CELULARES:</dt>
-                            <dd>0989420495</dd>
-                            <dd>0968774185</dd>
-                            
+                            <dt id="texto">CELULARES:</dt>
+                            <dd id="texto3">0989420495</dd>
+                            <dd id="texto3">0968774185</dd>
+                            <br>
+                  
                      
-                            <dt>CORREO ELECTRONICO</dt>
-                            <dd>enriqueochoa87@gmail.com</dd>
-                            <dd>jocohoac6@est.ups.edu.ec</dd>
+                            <dt id="texto">CORREO ELECTRONICO</dt>
+                            <dd id="texto3">enriqueochoa87@gmail.com</dd>
+                            <dd id="texto3">jocohoac6@est.ups.edu.ec</dd>
+                            <br>
+                         
                             
-                            
-                            <dt>REDES SOCIALES</dt>
-                            <dd>Facebook:TaxyDriver</dd> 
-                        
+                            <dt id="texto">REDES SOCIALES</dt>
+                            <dd id="texto3">Facebook:TaxyDriver</dd> 
+                            <br>
                     
     
                         
@@ -62,14 +94,20 @@
              
 
          </article>
+
+        </div>
+
+        
+        
     </header>
 
      <footer>
          <br>
         <small><strong>&#8226;Jonnathan Enrique Ochoa Calderon 
          <br>&#8226;Universidad Politecnica Salesiana
-         <br>&#8226;Correo: <a href="mailto:jochoac6@est.ups.edu.ec">jochoac6@est.ups.edu.ec</a>
-         <br>&#8226;Telefono:<a href="tel:4132350">4132350</a> &#8226;Todos los derechos reservados &#169;
+         <br>&#8226;Correo: <a class="link" href="mailto:jochoac6@est.ups.edu.ec">jochoac6@est.ups.edu.ec</a>
+         <br>&#8226;Telefono:<a class="hover" href="tel:4132350">4132350</a> 
+         <br>&#8226;Todos los derechos reservados &#169;
         </strong>
      </small>
      </footer>
