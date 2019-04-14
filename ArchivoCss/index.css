@@ -1,0 +1,76 @@
+/*Selector por ID*/
+#menuPrincipal{
+    width: 10%;
+    border-width: 5px ;
+    border-color: brown;
+    border-style: ridge;
+    border-radius: 30%;
+    float: left;
+    background: beige;
+}
+/*Selector por ID*/
+#contenido{
+    width: 79%;
+    margin:0 0 0 5px;
+    padding: 5px 20px;
+    border-width: 5px;
+    border-color: rgb(202, 209, 191);
+    border-style: groove; 
+    float: left;
+}
+/*Selector por Etiquetas*/
+header>a>img{
+    height: 260px;
+    display:block;
+    margin: auto;
+
+}
+/*Selector por ID*/
+#imagen2{
+        width: 40%;
+        display:block;
+        margin: auto;
+}
+/*Selector por Etiquetas*/
+footer{
+        clear: both;
+        text-align: center;
+        background: bisque;
+}
+/*Selector por Etiquetas*/
+body{
+    background-image:url("../Imagenes/Fondo.jpg");
+    
+    background-attachment: fixed;
+    
+
+}
+/*Selector por Etiquetas*/
+div{
+    
+    color: bisque;
+   
+}
+/*Selector por Etiquetas*/
+header>h1{
+    clear: both;
+    text-align: center;
+    background: bisque;
+}
+/*Selector descendente*/
+div section article h1{
+    color:yellow;
+    text-align: center;
+    text-anchor: middle;
+    font-size: 200%;
+
+}
+table.edicion{
+    color:red;
+    text-align: center;
+    background: bisque;
+    border-width: 5px ;
+    border-color: brown;
+    border-style: ridge;
+    
+}
